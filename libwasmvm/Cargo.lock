@@ -578,8 +578,7 @@ dependencies = [
 [[package]]
 name = "cosmwasm-vm"
 version = "3.0.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "64cbf1a86d6613f3faf4778bae6f6661b7df36a2e84081b56a62ab733fd935a5"
+source = "git+https://github.com/nolus-protocol/cosmwasm?branch=v3.0.4-bulk-memory#902c7d3a469eafd8307e425e7997826abfc4e605"
 dependencies = [
  "bech32",
  "blake2",

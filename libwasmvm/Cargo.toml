@@ -32,7 +32,7 @@ cosmwasm-std = { version = "3.0.4", features = [
   "iterator",
   "ibc2",
 ] }
-cosmwasm-vm = { version = "3.0.4", features = [
+cosmwasm-vm = { git = "https://github.com/nolus-protocol/cosmwasm", branch = "v3.0.4-bulk-memory", features = [
   "staking",
   "stargate",
   "iterator",
